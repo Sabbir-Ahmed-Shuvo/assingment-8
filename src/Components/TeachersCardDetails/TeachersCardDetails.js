@@ -8,9 +8,9 @@ const TeachersCardDetails = (props) => {
         <div className="col-md-4">
             <div class="card mt-5 cardBg">
                 <figure className =" text-center mt-1">
-                    <img className="rounded-circle" width="100px" height="100px" src={img} alt="" />
+                    <img className="rounded" width="100px" height="100px" src={img} alt="" />
                 </figure>
-                <div class="card-body">
+                <div class="card-body text-white">
                     <h6 class="card-title"><span className= "title">Name:</span> {name}</h6>
                     <h6 class="card-title"><span className= "title">Designation:</span> {designation}</h6>
                     <h6 class="card-title"><span className= "title">Email:</span> {email}</h6>
@@ -20,7 +20,7 @@ const TeachersCardDetails = (props) => {
                 <div className="d-flex justify-content-center mb-4">
                     <button onClick={() => AddTOCart(teacherData)} className= "btn btn-success "><i class="fas fa-cart-plus"></i> Add Cart</button>
                 </div>
-                <div className=" d-flex justify-content-around mb-3">
+                <div className=" d-flex justify-content-around mb-3 text-white">
                 <i class="fab fa-facebook-square fs-1"></i>
                 <i class="fab fa-twitter-square fs-1"></i>
                 </div>

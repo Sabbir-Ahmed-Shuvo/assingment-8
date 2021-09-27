@@ -3,13 +3,13 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className="header_bg ">
-            <div className="transparent text-center text-white text-bold">
-            <h2>Welcome to the University of Dhaka</h2>
+        <div className="header_bg">
+            <div className="transparent text-center text-white text-bold ">
+            <h2>Welcome to Rajshahi Medical College</h2>
             <p>
-                On the first day of July 1921 the University of Dhaka opened its doors to students with Sir P.J. Hartog ...
+            There's a lot of people in this world who spend so much time watching their health that they haven't the time to enjoy it.
             </p>
-            <h2>Total Students : 1 Million</h2>
+            <h2>Total teachers : 1 Million</h2>
             </div>
         </div>
     );
