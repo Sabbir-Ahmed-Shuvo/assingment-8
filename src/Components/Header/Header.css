@@ -1,0 +1,11 @@
+
+.header_bg{
+    background-image: url('../../img/header.jpg');
+    height: 500px;
+    background-size: cover;
+    
+}
+.transparent{
+    background-color:rgba(0, 0, 0, 0.295);
+    padding: 20px;
+}
